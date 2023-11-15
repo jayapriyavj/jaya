@@ -209,10 +209,50 @@ ul.social-icons {
   padding-top: 5px;
 }
 .work-section-box-icons {
-  color: var(--primary);
+  background-color: var(--primary);
   padding: 10px;
   border-radius: 50%;
 }
 .work-section-box-icons:hover {
   background-color: var(--primary-hover);
+}
+/* contact me */
+.contact-section {
+  background-color: #14171c;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+.contact-section h4 {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+
+.contact-section h4 > span {
+  color: var(--primary);
+}
+.contact-section form input,
+textarea {
+  padding: 5px 10px;
+  width: 350px;
+  border-radius: 2px;
+  background-color: #c4c4c4;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  resize: none;
+  font-family: "Roboto";
+}
+/* footer */
+footer {
+  background-color: var(--dark-primary);
+  color: grey;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 12px;
+}
+footer a {
+  color: var(--primary);
+  text-decoration: none;
 }
