@@ -21,6 +21,10 @@ header {
   background-color: var(--dark-primary);
   padding: 20px;
   color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -52,7 +56,7 @@ section.hero-section {
   color: #fff;
   display: flex;
   align-items: center;
-  padding: 20px 120px 0 120px;
+  padding: 40px 120px 0 120px;
 }
 .hero-section--title {
   font-size: 48px;
@@ -273,6 +277,7 @@ footer a {
   section.hero-section {
     flex-direction: column;
     padding: 40px;
+    padding-top: 120px;
   }
   /* about-section */
   section.about-section {
