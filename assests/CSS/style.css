@@ -25,6 +25,7 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+
 header .logo {
   font-weight: bold;
   color: var(--primary);
@@ -258,4 +259,45 @@ footer {
 footer a {
   color: var(--primary);
   text-decoration: none;
+}
+/* media queries */
+@media only screen and (max-width: 600px) {
+  /* header */
+  header {
+    flex-direction: column;
+  }
+  header > * {
+    margin-bottom: 10px;
+  }
+  /* hero-section */
+  section.hero-section {
+    flex-direction: column;
+    padding: 40px;
+  }
+  /* about-section */
+  section.about-section {
+    flex-direction: column;
+  }
+  .about-section--desc {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  /* my work */
+  .work-section {
+    padding: 30px 10px;
+  }
+  .work-section-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-section-box {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-right: 0px;
+  }
+  /* contact */
+  .contact-section form input,
+  textarea {
+    width: 100%;
+  }
 }
