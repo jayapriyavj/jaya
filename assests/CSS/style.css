@@ -5,6 +5,9 @@
   --primary-hover: #0c8ec2;
   --dark-primary: #1b1f24;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0px;
